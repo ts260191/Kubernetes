@@ -6,7 +6,7 @@ metadata:
         env: prod
 spec: 
     containers:
-        - name: nginx-demoapp
-           image: nginx
-       ports:
-       - containerPort: 80
+    - name: nginx-demoapp
+      image: nginx
+    ports:
+    - containerPort: 80
